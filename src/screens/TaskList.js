@@ -36,7 +36,7 @@ export default class TaskList extends Component {
         this.setState(state, this.filterTasks)
     }
 
-    // Setar true ou false dependendo da alternancia
+    // Setar true ou false dependendo da alternancia!
     toggleFilter = () => {
         this.setState({ showDoneTasks: !this.state.showDoneTasks }, this.filterTasks)
     }
